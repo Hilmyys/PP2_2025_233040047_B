@@ -57,12 +57,11 @@ public class TugasModul07 extends JFrame {
         txtNilai = new JTextField();
         panel.add(txtNilai);
 
-        JButton btnReset = new JButton("Reset Data");
         JButton btnSimpan = new JButton("Simpan Data");
-        
-        panel.add(btnReset);
+        JButton btnReset = new JButton("Reset");
+
         panel.add(btnSimpan);
-        
+        panel.add(btnReset);
 
         btnSimpan.addActionListener(e -> prosesSimpan());
 
@@ -87,7 +86,7 @@ public class TugasModul07 extends JFrame {
 
         btnHapus.addActionListener(e -> hapusData());
 
-        panel.add(bottomPanel, BorderLayout.CENTER);
+        panel.add(bottomPanel, BorderLayout.SOUTH);
 
         return panel;
     }
