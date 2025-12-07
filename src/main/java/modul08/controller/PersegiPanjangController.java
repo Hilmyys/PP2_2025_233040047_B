@@ -22,8 +22,6 @@ public class PersegiPanjangController {
         this.view = view;
         
         this.view.addHitungListener(new HitungListener());
-        
-        this.view.addHitungListener(new HitungListener());
         this.view.addResetListener(new ResetListener());
     }
    
@@ -38,20 +36,18 @@ public class PersegiPanjangController {
                 model.setPanjang(p);
                 model.setLebar(l);
                 
-                // Hitung Luas
                 model.hitungLuas();
-                // Hitung Keliling (Tambahan)
+ 
                 model.hitungKeliling();
                 
-                // Update View
+                
                 view.setHasilLuas(model.getLuas());
-                view.setHasilKeliling(model.getKeliling()); // Tampilkan Keliling
+                view.setHasilKeliling(model.getKeliling()); 
                 
             } catch (NumberFormatException ex) {
                 view.tampilkanPesanError("Masukan angka yang valid!");
             }
         }
-    
     }
     
     class ResetListener implements ActionListener {

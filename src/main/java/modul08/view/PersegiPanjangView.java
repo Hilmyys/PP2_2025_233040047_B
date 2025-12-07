@@ -14,38 +14,32 @@ import javax.swing.JTextField;
  */
 public class PersegiPanjangView extends JFrame {
     
-    // Komponen UI
     private JTextField txtPanjang = new JTextField(10);
     private JTextField txtLebar = new JTextField(10);
     private JLabel lblHasilLuas = new JLabel("-");
-    private JLabel lblHasilKeliling = new JLabel("-"); // Tambahan Label Keliling
+    private JLabel lblHasilKeliling = new JLabel("-"); 
     private JButton btnHitung = new JButton("Hitung");
-    private JButton btnReset = new JButton("Reset"); // Tambahan Tombol Reset
+    private JButton btnReset = new JButton("Reset"); 
     
     public PersegiPanjangView() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(300, 300);
-        // Ubah grid menjadi 5 baris, 2 kolom
+        
         this.setLayout(new GridLayout(5, 2, 10, 10)); 
         this.setTitle("MVC Kalkulator");
         
-        // Baris 1
         this.add(new JLabel("Panjang:"));
         this.add(txtPanjang);
         
-        // Baris 2
         this.add(new JLabel("Lebar:"));
         this.add(txtLebar);
         
-        // Baris 3
         this.add(new JLabel("Hasil Luas:"));
         this.add(lblHasilLuas);
         
-        // Baris 4 (Tambahan)
         this.add(new JLabel("Hasil Keliling:"));
         this.add(lblHasilKeliling);
         
-        // Baris 5 (Tombol)
         this.add(btnHitung);
         this.add(btnReset);
     }
@@ -62,18 +56,16 @@ public class PersegiPanjangView extends JFrame {
         lblHasilLuas.setText(String.valueOf(hasil));
     }
     
-    // Tambahan setter untuk label keliling
     public void setHasilKeliling(double hasil) {
         lblHasilKeliling.setText(String.valueOf(hasil));
     }
     
-    // Tambahan method untuk membersihkan inputan
     public void clearInput() {
         txtPanjang.setText("");
         txtLebar.setText("");
         lblHasilLuas.setText("-");
         lblHasilKeliling.setText("-");
-        txtPanjang.requestFocus(); // Fokuskan kursor kembali ke kolom panjang
+        txtPanjang.requestFocus();
     }
     
     public void tampilkanPesanError(String pesan) {
@@ -84,7 +76,6 @@ public class PersegiPanjangView extends JFrame {
         btnHitung.addActionListener(listener);
     }
     
-    // Tambahan listener untuk tombol reset
     public void addResetListener(ActionListener listener) {
         btnReset.addActionListener(listener);
     }
