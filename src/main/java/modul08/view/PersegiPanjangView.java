@@ -1,4 +1,4 @@
-package modul08.view;
+package Modul08.view;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;

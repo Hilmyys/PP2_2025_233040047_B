@@ -1,9 +1,8 @@
-package Modul10.MahasiswaController; // SESUAIKAN DENGAN NAMA FOLDER
+package Modul10.Controller; 
 
-// IMPORTS PENTING
-import Modul10.Mahasiswa.Mahasiswa;
-import Modul10.MahasiswaDAO.MahasiswaDAO;
-import Modul10.MahasiswaView.MahasiswaView;
+import Modul10.Model.Mahasiswa;
+import Modul10.Model.MahasiswaDAO;
+import Modul10.View.MahasiswaView;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -15,10 +14,12 @@ public class MahasiswaController {
     private MahasiswaView view;
     private MahasiswaDAO dao;
 
+    // CONSTRUCTOR
     public MahasiswaController(MahasiswaView view, MahasiswaDAO dao) {
         this.view = view;
         this.dao = dao;
 
+        // Listeners
         view.btnSimpan.addActionListener(e -> simpanData());
         view.btnEdit.addActionListener(e -> editData());
         view.btnHapus.addActionListener(e -> hapusData());

@@ -1,12 +1,9 @@
-package Modul10.MahasiswaDAO; // SESUAIKAN DENGAN NAMA FOLDER
-
-// IMPORTS PENTING
-import Modul10.Db.koneksiDB; 
-import Modul10.Mahasiswa.Mahasiswa;
+package Modul10.Model;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 
 public class MahasiswaDAO {
     
@@ -21,7 +18,9 @@ public class MahasiswaDAO {
     private List<Mahasiswa> getMahasiswaByQuery(String sql) {
         List<Mahasiswa> list = new ArrayList<>();
         try {
-            Connection conn = koneksiDB.getConnection();
+            
+            Connection conn = koneksiDB.ConfigDB(); 
+            
             Statement stm = conn.createStatement();
             ResultSet res = stm.executeQuery(sql);
             while (res.next()) {
@@ -40,7 +39,7 @@ public class MahasiswaDAO {
     public boolean isNimExists(String nim) {
         boolean exists = false;
         try {
-            Connection conn = koneksiDB.getConnection();
+            Connection conn = koneksiDB.ConfigDB();
             String sql = "SELECT * FROM mahasiswa WHERE nim = ?";
             PreparedStatement pst = conn.prepareStatement(sql);
             pst.setString(1, nim);
@@ -55,7 +54,7 @@ public class MahasiswaDAO {
     }
 
     public void insertMahasiswa(Mahasiswa m) throws SQLException {
-        Connection conn = koneksiDB.getConnection();
+        Connection conn = koneksiDB.ConfigDB();
         String sql = "INSERT INTO mahasiswa (nama, nim, jurusan) VALUES (?, ?, ?)";
         PreparedStatement pst = conn.prepareStatement(sql);
         pst.setString(1, m.getNama());
@@ -65,7 +64,7 @@ public class MahasiswaDAO {
     }
 
     public void updateMahasiswa(Mahasiswa m) throws SQLException {
-        Connection conn = koneksiDB.getConnection();
+        Connection conn = koneksiDB.ConfigDB();
         String sql = "UPDATE mahasiswa SET nama = ?, jurusan = ? WHERE nim = ?";
         PreparedStatement pst = conn.prepareStatement(sql);
         pst.setString(1, m.getNama());
@@ -75,7 +74,7 @@ public class MahasiswaDAO {
     }
 
     public void deleteMahasiswa(String nim) throws SQLException {
-        Connection conn = koneksiDB.getConnection();
+        Connection conn = koneksiDB.ConfigDB();
         String sql = "DELETE FROM mahasiswa WHERE nim = ?";
         PreparedStatement pst = conn.prepareStatement(sql);
         pst.setString(1, nim);

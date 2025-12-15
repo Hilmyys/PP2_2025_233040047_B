@@ -1,4 +1,3 @@
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\id\ac\unpas\praktikumpemogram2\PraktikumPemogram2.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul05\Latihan1.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul05\Latihan2.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul05\Latihan3.java
@@ -19,9 +18,9 @@ C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\mo
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\modul08\view\PersegiPanjangView.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul09\AplikasiFileIO.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul09\UserConfig.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Db\koneksiDB.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Mahasiswa\Mahasiswa.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\MahasiswaController\MahasiswaController.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\MahasiswaDAO\MahasiswaDAO.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\MahasiswaView\MahasiswaView.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Controller\MahasiswaController.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Main.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\koneksiDB.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\Mahasiswa.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\MahasiswaDAO.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\View\MahasiswaView.java

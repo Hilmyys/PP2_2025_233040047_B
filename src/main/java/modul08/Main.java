@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modul08;
+package Modul08;
 
 
-import modul08.controller.PersegiPanjangController;
-import modul08.model.PersegiPanjangModel;
-import modul08.view.PersegiPanjangView;
+import Modul08.controller.PersegiPanjangController;
+import Modul08.model.PersegiPanjangModel;
+import Modul08.view.PersegiPanjangView;
      
 /**
  *

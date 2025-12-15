@@ -1,4 +1,4 @@
-package Modul10.Mahasiswa;
+package Modul10.Model;
 
 public class Mahasiswa {
     private String nama;

@@ -1,4 +1,4 @@
-package Modul10.MahasiswaView;
+package Modul10.View;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
