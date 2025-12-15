@@ -2,10 +2,14 @@ Modul07\ManajemenNilaiSiswaApp.class
 modul08\view\PersegiPanjangView.class
 modul08\model\PersegiPanjangModel.class
 id\ac\unpas\praktikumpemogram2\PraktikumPemogram2.class
+Modul10\Main.class
 Modul06\ContohBorderLayout.class
 modul08\controller\PersegiPanjangController$HitungListener.class
 Modul06\ContohActionListener$1.class
+Modul10\MahasiswaController\MahasiswaController.class
 Modul05\Latihan2.class
+Modul10\Mahasiswa\Mahasiswa.class
+Modul10\Db\koneksiDB.class
 Modul05\Latihan4$1.class
 Modul05\Latihan3$1.class
 Modul05\Latihan3.class
@@ -16,9 +20,11 @@ Modul05\Latihan2$1.class
 modul08\Main.class
 Modul09\AplikasiFileIO.class
 Modul06\ContohGridLayout.class
+Modul10\MahasiswaController\MahasiswaController$1.class
 Modul05\Latihan1$1.class
 Modul07\ManajemenNilaiSiswaApp$1.class
 Modul05\Tugas$1.class
+Modul10\MahasiswaDAO\MahasiswaDAO.class
 Modul06\ContohMouseListener$1.class
 Modul09\UserConfig.class
 Modul07\TugasModul07.class
@@ -31,3 +37,4 @@ Modul09\AplikasiFileIO$1.class
 Modul05\Latihan4.class
 Modul06\ContohActionListener.class
 Modul06\KalkulatorSederhana.class
+Modul10\MahasiswaView\MahasiswaView.class
