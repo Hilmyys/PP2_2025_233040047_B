@@ -11,7 +11,6 @@ public class Mahasiswa {
         this.jurusan = jurusan;
     }
 
-    // Getters
     public String getNama() { return nama; }
     public String getNim() { return nim; }
     public String getJurusan() { return jurusan; }
