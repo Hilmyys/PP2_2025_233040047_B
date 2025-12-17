@@ -18,9 +18,8 @@ C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Mo
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul08\view\PersegiPanjangView.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul09\AplikasiFileIO.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul09\UserConfig.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Controller\MahasiswaController.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\controller\MahasiswaController.java
 C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Main.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\koneksiDB.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\Mahasiswa.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\Model\MahasiswaDAO.java
-C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\View\MahasiswaView.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\model\koneksiDB.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\model\Mahasiswa.java
+C:\Users\THINKPAD\Documents\NetBeansProjects\PraktikumPemogram2\src\main\java\Modul10\view\MahasiswaApp.java

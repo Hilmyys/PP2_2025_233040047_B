@@ -7,8 +7,8 @@ Modul10\Main.class
 Modul06\ContohBorderLayout.class
 modul08\controller\PersegiPanjangController$HitungListener.class
 Modul06\ContohActionListener$1.class
+Modul10\View\MahasiswaApp$1.class
 Modul05\Latihan2.class
-Modul10\View\MahasiswaView.class
 Modul05\Latihan4$1.class
 Modul05\Latihan3$1.class
 Modul05\Latihan3.class
@@ -20,7 +20,6 @@ modul08\Main.class
 Modul09\AplikasiFileIO.class
 Modul06\ContohGridLayout.class
 Modul05\Latihan1$1.class
-Modul10\Model\MahasiswaDAO.class
 Modul07\ManajemenNilaiSiswaApp$1.class
 Modul05\Tugas$1.class
 Modul06\ContohMouseListener$1.class
@@ -30,8 +29,8 @@ Modul06\ContohFlowLayout.class
 modul08\controller\PersegiPanjangController.class
 Modul05\Tugas.class
 Modul06\KonverterSuhu$1.class
+Modul10\View\MahasiswaApp.class
 Modul05\Latihan1.class
-Modul10\Controller\MahasiswaController$1.class
 Modul09\AplikasiFileIO$1.class
 Modul05\Latihan4.class
 Modul06\ContohActionListener.class
